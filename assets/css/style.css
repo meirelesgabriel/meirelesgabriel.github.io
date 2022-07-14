@@ -38,7 +38,11 @@ header img {
   margin-bottom: 1.5rem;
 }
 
-
+header img:hover {
+  /*opacity: 0.7;*/
+  border: solid 3px #8257E6;
+  box-shadow: 2px 2px 4px #222020;
+}
 
 main {
   display: flex;
@@ -51,16 +55,45 @@ main {
 main h1 {
   font-size: 3.5rem;
   text-align: center;
-  min-width: 25.2rem;
+  min-width: 33.6rem;
+
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
 }
 
+main h1:hover {
+  color: #8257E6;
+  text-shadow: 2px 2px 4px #222020;
+}
+
+
 main p {
-  padding-top: 1.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 0.5rem;
+  /*padding-bottom: 3.5rem;*/
   font-size: 1.5rem;
   text-align: center;
-  min-width: 16.3rem;
+  min-width: 25rem;
+  
+  font-family: 'Roboto Mono', monospace;
+
+  /*display: flex;
+
+  align-items: center;
+  align-content: space-between;*/
 }
+
+#my-email {
+  padding-bottom: 3.5rem;
+  font-size: 1.2rem;
+}
+
+#my-email:hover {
+  text-shadow: 1px 1px 2px #222020;
+
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 
 a {
   text-decoration: none;
@@ -79,7 +112,13 @@ main a {
   font-size: 1.6rem;
   font-weight: 550;
   text-align: center;
+
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+
+  box-shadow: 2px 2px 4px #222020;
 }
+
 
 main span {
   width: 60%;
@@ -139,7 +178,21 @@ footer {
 
   font-size: 1.3rem;
   gap: 1rem;
+
+  font-family: 'Source Code Pro', monospace;
+
+  text-shadow: 2px 2px 4px #222020;
+
+  opacity: 0.8;
 }
+
+footer:hover {
+  opacity: 1;
+}
+
+/*footer span:nth-child(1):hover {
+  color: #8257E6;
+}*/
 
 footer a svg {
   padding-left: 0;
@@ -152,4 +205,32 @@ footer span:nth-child(2) {
 #arroba {
   color: #8257E6;
   font-weight: 900;
+}
+
+@media screen and (max-width: 400px) {
+
+  main h1 {
+    font-size: 3.3rem;
+  }
+
+  main p {
+    font-size: 1.4rem;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  main h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  main h1 {
+    font-size: 2.6rem;
+  }
+
+  main a {
+    width: 25rem;
+  }
 }
