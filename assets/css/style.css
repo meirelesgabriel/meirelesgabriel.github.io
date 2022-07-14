@@ -10,8 +10,7 @@
 
 body {
   min-height: 100vh;
-  background: rgb(4,14,1);
-  background: linear-gradient(1deg, rgba(4,14,1,1) 0%, rgba(2,19,4,0.9667038690476191) 35%, rgba(2,23,3,0.9274881827731092) 100%);
+  background: #30363D;
   color: white;
 }
 
@@ -38,6 +37,8 @@ header img {
   border: solid 2px white;
   margin-bottom: 1.5rem;
 }
+
+
 
 main {
   display: flex;
@@ -66,14 +67,14 @@ a {
 }
 
 main a {
-  width: 20rem;
+  width: 28rem;
   min-height: 4.5rem;
-  background: white;
+  background: #E8F0F9;
   margin-top: 1.3rem;
   border-radius: 12px;
   display: flex;
   align-items: center;
-  color: brown;
+  color: black;
 
   font-size: 1.6rem;
   font-weight: 550;
@@ -81,12 +82,50 @@ main a {
 }
 
 main span {
-  width: 55%;
+  width: 60%;
   
 }
 a svg {
   height: 3.5rem;
   padding-left: 3rem;
+}
+
+#github:hover {
+  background: #576E8E;
+}
+
+#linkedin:hover {
+  background: #0a66c2;
+}
+
+#instagram:hover {
+  background: #af2634;
+}
+
+#twitter:hover {
+  background: rgb(29, 155, 240);
+
+}
+
+#facebook:hover {
+  background: #2374E1;
+}
+
+#stackoverflow:hover {
+  background: hsl(27,90%,50%);
+}
+
+#flickr:hover {
+  background: #FF79D5;
+
+}
+
+#lastfm:hover {
+  background: #d50000;
+}
+
+#email:hover {
+  background: #d93025;
 }
 
 footer {
@@ -111,5 +150,6 @@ footer span:nth-child(2) {
 }
 
 #arroba {
-  color:blueviolet;
+  color: #8257E6;
+  font-weight: 900;
 }
